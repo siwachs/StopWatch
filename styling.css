@@ -1,0 +1,78 @@
+body{
+    background: url('./src/background/back.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#title{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+
+    /*size depent on viewport use vw 1%..*/
+    font-size: 7vw;
+}
+
+#lap_time{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+#time{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 10vw;
+}
+
+#controls{
+    margin-bottom: 100px;
+}
+
+.bt{
+    color:white;
+    background-color: #d7ae4e;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding:20% 0;/*TB LR*/
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+.bt:active{
+    background-color: white;
+    color: #d7ae4e;
+}
+
+#lap_count{
+    overflow-y: scroll;
+    max-height: 270px;
+    color: white;
+    font-weight: bold;
+}
+
+#resume,#stop,#reset{
+    display: none;
+}
+
+.details{
+    border-bottom: white 2px solid;
+    height: 50px;
+    margin: 15px;
+}
+
+.lap_no{
+    font-size: 1.5em;
+    float: left;
+}
+
+.lap{
+    font-size: 1.8em;
+    float: right;
+}
