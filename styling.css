@@ -61,18 +61,18 @@ body{
     display: none;
 }
 
-.details{
-    border-bottom: white 2px solid;
+.lap_box{
     height: 50px;
+    border-bottom:1px solid white;
     margin: 15px;
 }
 
 .lap_no{
-    font-size: 1.5em;
     float: left;
+    font-size: 1.5em;
 }
 
-.lap{
+.lap_time{
     font-size: 1.8em;
     float: right;
 }
